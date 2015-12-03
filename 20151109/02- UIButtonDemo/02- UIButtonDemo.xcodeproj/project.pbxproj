@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6D5F5C1BF085320037FFEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D5F5B1BF085320037FFEB /* main.m */; };
+		CC6D5F5F1BF085320037FFEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D5F5E1BF085320037FFEB /* AppDelegate.m */; };
+		CC6D5F621BF085320037FFEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D5F611BF085320037FFEB /* ViewController.m */; };
+		CC6D5F651BF085320037FFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F631BF085320037FFEB /* Main.storyboard */; };
+		CC6D5F671BF085320037FFEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F661BF085320037FFEB /* Images.xcassets */; };
+		CC6D5F6A1BF085320037FFEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F681BF085320037FFEB /* LaunchScreen.xib */; };
+		CC6D5F761BF085320037FFEB /* _2__UIButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D5F751BF085320037FFEB /* _2__UIButtonDemoTests.m */; };
+		CC6D5F981BF085D50037FFEB /* bottom_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F801BF085D50037FFEB /* bottom_disable.png */; };
+		CC6D5F991BF085D50037FFEB /* bottom_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F811BF085D50037FFEB /* bottom_highlighted.png */; };
+		CC6D5F9A1BF085D50037FFEB /* bottom_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F821BF085D50037FFEB /* bottom_normal.png */; };
+		CC6D5F9B1BF085D50037FFEB /* left_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F831BF085D50037FFEB /* left_disable.png */; };
+		CC6D5F9C1BF085D50037FFEB /* left_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F841BF085D50037FFEB /* left_highlighted.png */; };
+		CC6D5F9D1BF085D50037FFEB /* left_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F851BF085D50037FFEB /* left_normal.png */; };
+		CC6D5F9E1BF085D50037FFEB /* right_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F861BF085D50037FFEB /* right_disable.png */; };
+		CC6D5F9F1BF085D50037FFEB /* right_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F871BF085D50037FFEB /* right_highlighted.png */; };
+		CC6D5FA01BF085D50037FFEB /* right_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F881BF085D50037FFEB /* right_normal.png */; };
+		CC6D5FA11BF085D50037FFEB /* top_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F891BF085D50037FFEB /* top_disable.png */; };
+		CC6D5FA21BF085D50037FFEB /* top_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F8A1BF085D50037FFEB /* top_highlighted.png */; };
+		CC6D5FA31BF085D50037FFEB /* top_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F8B1BF085D50037FFEB /* top_normal.png */; };
+		CC6D5FA41BF085D50037FFEB /* dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F8D1BF085D50037FFEB /* dog1.png */; };
+		CC6D5FA51BF085D50037FFEB /* dog2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F8E1BF085D50037FFEB /* dog2.png */; };
+		CC6D5FA61BF085D50037FFEB /* left_rotate_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F901BF085D50037FFEB /* left_rotate_highlighted.png */; };
+		CC6D5FA71BF085D50037FFEB /* left_rotate_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F911BF085D50037FFEB /* left_rotate_normal.png */; };
+		CC6D5FA81BF085D50037FFEB /* minus_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F921BF085D50037FFEB /* minus_highlighted.png */; };
+		CC6D5FA91BF085D50037FFEB /* minus_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F931BF085D50037FFEB /* minus_normal.png */; };
+		CC6D5FAA1BF085D50037FFEB /* plus_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F941BF085D50037FFEB /* plus_highlighted.png */; };
+		CC6D5FAB1BF085D50037FFEB /* plus_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F951BF085D50037FFEB /* plus_normal.png */; };
+		CC6D5FAC1BF085D50037FFEB /* right_rotate_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F961BF085D50037FFEB /* right_rotate_highlighted.png */; };
+		CC6D5FAD1BF085D50037FFEB /* right_rotate_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6D5F971BF085D50037FFEB /* right_rotate_normal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6D5F701BF085320037FFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6D5F4E1BF085320037FFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6D5F551BF085320037FFEB;
+			remoteInfo = "02- UIButtonDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6D5F561BF085320037FFEB /* 02- UIButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02- UIButtonDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6D5F5A1BF085320037FFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6D5F5B1BF085320037FFEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6D5F5D1BF085320037FFEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC6D5F5E1BF085320037FFEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC6D5F601BF085320037FFEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC6D5F611BF085320037FFEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC6D5F641BF085320037FFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6D5F661BF085320037FFEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC6D5F691BF085320037FFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC6D5F6F1BF085320037FFEB /* 02- UIButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02- UIButtonDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6D5F741BF085320037FFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6D5F751BF085320037FFEB /* _2__UIButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2__UIButtonDemoTests.m; sourceTree = "<group>"; };
+		CC6D5F801BF085D50037FFEB /* bottom_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_disable.png; sourceTree = "<group>"; };
+		CC6D5F811BF085D50037FFEB /* bottom_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F821BF085D50037FFEB /* bottom_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_normal.png; sourceTree = "<group>"; };
+		CC6D5F831BF085D50037FFEB /* left_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_disable.png; sourceTree = "<group>"; };
+		CC6D5F841BF085D50037FFEB /* left_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F851BF085D50037FFEB /* left_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_normal.png; sourceTree = "<group>"; };
+		CC6D5F861BF085D50037FFEB /* right_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_disable.png; sourceTree = "<group>"; };
+		CC6D5F871BF085D50037FFEB /* right_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F881BF085D50037FFEB /* right_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_normal.png; sourceTree = "<group>"; };
+		CC6D5F891BF085D50037FFEB /* top_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_disable.png; sourceTree = "<group>"; };
+		CC6D5F8A1BF085D50037FFEB /* top_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F8B1BF085D50037FFEB /* top_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_normal.png; sourceTree = "<group>"; };
+		CC6D5F8D1BF085D50037FFEB /* dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog1.png; sourceTree = "<group>"; };
+		CC6D5F8E1BF085D50037FFEB /* dog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog2.png; sourceTree = "<group>"; };
+		CC6D5F901BF085D50037FFEB /* left_rotate_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_rotate_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F911BF085D50037FFEB /* left_rotate_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_rotate_normal.png; sourceTree = "<group>"; };
+		CC6D5F921BF085D50037FFEB /* minus_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F931BF085D50037FFEB /* minus_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus_normal.png; sourceTree = "<group>"; };
+		CC6D5F941BF085D50037FFEB /* plus_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F951BF085D50037FFEB /* plus_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_normal.png; sourceTree = "<group>"; };
+		CC6D5F961BF085D50037FFEB /* right_rotate_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_rotate_highlighted.png; sourceTree = "<group>"; };
+		CC6D5F971BF085D50037FFEB /* right_rotate_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_rotate_normal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6D5F531BF085320037FFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6D5F6C1BF085320037FFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6D5F4D1BF085320037FFEB = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F581BF085320037FFEB /* 02- UIButtonDemo */,
+				CC6D5F721BF085320037FFEB /* 02- UIButtonDemoTests */,
+				CC6D5F571BF085320037FFEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6D5F571BF085320037FFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F561BF085320037FFEB /* 02- UIButtonDemo.app */,
+				CC6D5F6F1BF085320037FFEB /* 02- UIButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6D5F581BF085320037FFEB /* 02- UIButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F5D1BF085320037FFEB /* AppDelegate.h */,
+				CC6D5F5E1BF085320037FFEB /* AppDelegate.m */,
+				CC6D5F601BF085320037FFEB /* ViewController.h */,
+				CC6D5F611BF085320037FFEB /* ViewController.m */,
+				CC6D5F631BF085320037FFEB /* Main.storyboard */,
+				CC6D5F661BF085320037FFEB /* Images.xcassets */,
+				CC6D5F681BF085320037FFEB /* LaunchScreen.xib */,
+				CC6D5F591BF085320037FFEB /* Supporting Files */,
+			);
+			path = "02- UIButtonDemo";
+			sourceTree = "<group>";
+		};
+		CC6D5F591BF085320037FFEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F5A1BF085320037FFEB /* Info.plist */,
+				CC6D5F7F1BF085D50037FFEB /* Arrow */,
+				CC6D5F8C1BF085D50037FFEB /* Head */,
+				CC6D5F8F1BF085D50037FFEB /* Other */,
+				CC6D5F5B1BF085320037FFEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6D5F721BF085320037FFEB /* 02- UIButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F751BF085320037FFEB /* _2__UIButtonDemoTests.m */,
+				CC6D5F731BF085320037FFEB /* Supporting Files */,
+			);
+			path = "02- UIButtonDemoTests";
+			sourceTree = "<group>";
+		};
+		CC6D5F731BF085320037FFEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F741BF085320037FFEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6D5F7F1BF085D50037FFEB /* Arrow */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F801BF085D50037FFEB /* bottom_disable.png */,
+				CC6D5F811BF085D50037FFEB /* bottom_highlighted.png */,
+				CC6D5F821BF085D50037FFEB /* bottom_normal.png */,
+				CC6D5F831BF085D50037FFEB /* left_disable.png */,
+				CC6D5F841BF085D50037FFEB /* left_highlighted.png */,
+				CC6D5F851BF085D50037FFEB /* left_normal.png */,
+				CC6D5F861BF085D50037FFEB /* right_disable.png */,
+				CC6D5F871BF085D50037FFEB /* right_highlighted.png */,
+				CC6D5F881BF085D50037FFEB /* right_normal.png */,
+				CC6D5F891BF085D50037FFEB /* top_disable.png */,
+				CC6D5F8A1BF085D50037FFEB /* top_highlighted.png */,
+				CC6D5F8B1BF085D50037FFEB /* top_normal.png */,
+			);
+			path = Arrow;
+			sourceTree = "<group>";
+		};
+		CC6D5F8C1BF085D50037FFEB /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F8D1BF085D50037FFEB /* dog1.png */,
+				CC6D5F8E1BF085D50037FFEB /* dog2.png */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		CC6D5F8F1BF085D50037FFEB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D5F901BF085D50037FFEB /* left_rotate_highlighted.png */,
+				CC6D5F911BF085D50037FFEB /* left_rotate_normal.png */,
+				CC6D5F921BF085D50037FFEB /* minus_highlighted.png */,
+				CC6D5F931BF085D50037FFEB /* minus_normal.png */,
+				CC6D5F941BF085D50037FFEB /* plus_highlighted.png */,
+				CC6D5F951BF085D50037FFEB /* plus_normal.png */,
+				CC6D5F961BF085D50037FFEB /* right_rotate_highlighted.png */,
+				CC6D5F971BF085D50037FFEB /* right_rotate_normal.png */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6D5F551BF085320037FFEB /* 02- UIButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6D5F791BF085320037FFEB /* Build configuration list for PBXNativeTarget "02- UIButtonDemo" */;
+			buildPhases = (
+				CC6D5F521BF085320037FFEB /* Sources */,
+				CC6D5F531BF085320037FFEB /* Frameworks */,
+				CC6D5F541BF085320037FFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02- UIButtonDemo";
+			productName = "02- UIButtonDemo";
+			productReference = CC6D5F561BF085320037FFEB /* 02- UIButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6D5F6E1BF085320037FFEB /* 02- UIButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6D5F7C1BF085320037FFEB /* Build configuration list for PBXNativeTarget "02- UIButtonDemoTests" */;
+			buildPhases = (
+				CC6D5F6B1BF085320037FFEB /* Sources */,
+				CC6D5F6C1BF085320037FFEB /* Frameworks */,
+				CC6D5F6D1BF085320037FFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6D5F711BF085320037FFEB /* PBXTargetDependency */,
+			);
+			name = "02- UIButtonDemoTests";
+			productName = "02- UIButtonDemoTests";
+			productReference = CC6D5F6F1BF085320037FFEB /* 02- UIButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6D5F4E1BF085320037FFEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC6D5F551BF085320037FFEB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CC6D5F6E1BF085320037FFEB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CC6D5F551BF085320037FFEB;
+					};
+				};
+			};
+			buildConfigurationList = CC6D5F511BF085320037FFEB /* Build configuration list for PBXProject "02- UIButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6D5F4D1BF085320037FFEB;
+			productRefGroup = CC6D5F571BF085320037FFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6D5F551BF085320037FFEB /* 02- UIButtonDemo */,
+				CC6D5F6E1BF085320037FFEB /* 02- UIButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6D5F541BF085320037FFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6D5F991BF085D50037FFEB /* bottom_highlighted.png in Resources */,
+				CC6D5FA71BF085D50037FFEB /* left_rotate_normal.png in Resources */,
+				CC6D5FA61BF085D50037FFEB /* left_rotate_highlighted.png in Resources */,
+				CC6D5FAC1BF085D50037FFEB /* right_rotate_highlighted.png in Resources */,
+				CC6D5F651BF085320037FFEB /* Main.storyboard in Resources */,
+				CC6D5FA81BF085D50037FFEB /* minus_highlighted.png in Resources */,
+				CC6D5F9C1BF085D50037FFEB /* left_highlighted.png in Resources */,
+				CC6D5FA21BF085D50037FFEB /* top_highlighted.png in Resources */,
+				CC6D5FA11BF085D50037FFEB /* top_disable.png in Resources */,
+				CC6D5F981BF085D50037FFEB /* bottom_disable.png in Resources */,
+				CC6D5FAD1BF085D50037FFEB /* right_rotate_normal.png in Resources */,
+				CC6D5FA41BF085D50037FFEB /* dog1.png in Resources */,
+				CC6D5F9F1BF085D50037FFEB /* right_highlighted.png in Resources */,
+				CC6D5F9D1BF085D50037FFEB /* left_normal.png in Resources */,
+				CC6D5F6A1BF085320037FFEB /* LaunchScreen.xib in Resources */,
+				CC6D5F671BF085320037FFEB /* Images.xcassets in Resources */,
+				CC6D5FA31BF085D50037FFEB /* top_normal.png in Resources */,
+				CC6D5FA51BF085D50037FFEB /* dog2.png in Resources */,
+				CC6D5FA91BF085D50037FFEB /* minus_normal.png in Resources */,
+				CC6D5FAB1BF085D50037FFEB /* plus_normal.png in Resources */,
+				CC6D5F9B1BF085D50037FFEB /* left_disable.png in Resources */,
+				CC6D5FA01BF085D50037FFEB /* right_normal.png in Resources */,
+				CC6D5F9A1BF085D50037FFEB /* bottom_normal.png in Resources */,
+				CC6D5F9E1BF085D50037FFEB /* right_disable.png in Resources */,
+				CC6D5FAA1BF085D50037FFEB /* plus_highlighted.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6D5F6D1BF085320037FFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6D5F521BF085320037FFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6D5F621BF085320037FFEB /* ViewController.m in Sources */,
+				CC6D5F5F1BF085320037FFEB /* AppDelegate.m in Sources */,
+				CC6D5F5C1BF085320037FFEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6D5F6B1BF085320037FFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6D5F761BF085320037FFEB /* _2__UIButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6D5F711BF085320037FFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6D5F551BF085320037FFEB /* 02- UIButtonDemo */;
+			targetProxy = CC6D5F701BF085320037FFEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6D5F631BF085320037FFEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6D5F641BF085320037FFEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6D5F681BF085320037FFEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6D5F691BF085320037FFEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6D5F771BF085320037FFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC6D5F781BF085320037FFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6D5F7A1BF085320037FFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02- UIButtonDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC6D5F7B1BF085320037FFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02- UIButtonDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC6D5F7D1BF085320037FFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02- UIButtonDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02- UIButtonDemo.app/02- UIButtonDemo";
+			};
+			name = Debug;
+		};
+		CC6D5F7E1BF085320037FFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02- UIButtonDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02- UIButtonDemo.app/02- UIButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6D5F511BF085320037FFEB /* Build configuration list for PBXProject "02- UIButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6D5F771BF085320037FFEB /* Debug */,
+				CC6D5F781BF085320037FFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6D5F791BF085320037FFEB /* Build configuration list for PBXNativeTarget "02- UIButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6D5F7A1BF085320037FFEB /* Debug */,
+				CC6D5F7B1BF085320037FFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6D5F7C1BF085320037FFEB /* Build configuration list for PBXNativeTarget "02- UIButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6D5F7D1BF085320037FFEB /* Debug */,
+				CC6D5F7E1BF085320037FFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6D5F4E1BF085320037FFEB /* Project object */;
+}

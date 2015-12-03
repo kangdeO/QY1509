@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9C501B1BBBBC5200FFC7BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C501A1BBBBC5200FFC7BC /* main.m */; };
+		CC9C501E1BBBBC5200FFC7BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C501D1BBBBC5200FFC7BC /* AppDelegate.m */; };
+		CC9C50211BBBBC5200FFC7BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C50201BBBBC5200FFC7BC /* ViewController.m */; };
+		CC9C50241BBBBC5200FFC7BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C50221BBBBC5200FFC7BC /* Main.storyboard */; };
+		CC9C50261BBBBC5200FFC7BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9C50251BBBBC5200FFC7BC /* Images.xcassets */; };
+		CC9C50291BBBBC5200FFC7BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9C50271BBBBC5200FFC7BC /* LaunchScreen.xib */; };
+		CC9C50351BBBBC5200FFC7BC /* _2_UILabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C50341BBBBC5200FFC7BC /* _2_UILabelDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC9C502F1BBBBC5200FFC7BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9C500D1BBBBC5200FFC7BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9C50141BBBBC5200FFC7BC;
+			remoteInfo = "02-UILabelDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC9C50151BBBBC5200FFC7BC /* 02-UILabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-UILabelDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9C50191BBBBC5200FFC7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9C501A1BBBBC5200FFC7BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC9C501C1BBBBC5200FFC7BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC9C501D1BBBBC5200FFC7BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC9C501F1BBBBC5200FFC7BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC9C50201BBBBC5200FFC7BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC9C50231BBBBC5200FFC7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9C50251BBBBC5200FFC7BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC9C50281BBBBC5200FFC7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC9C502E1BBBBC5200FFC7BC /* 02-UILabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-UILabelDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9C50331BBBBC5200FFC7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9C50341BBBBC5200FFC7BC /* _2_UILabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_UILabelDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9C50121BBBBC5200FFC7BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9C502B1BBBBC5200FFC7BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9C500C1BBBBC5200FFC7BC = {
+			isa = PBXGroup;
+			children = (
+				CC9C50171BBBBC5200FFC7BC /* 02-UILabelDemo */,
+				CC9C50311BBBBC5200FFC7BC /* 02-UILabelDemoTests */,
+				CC9C50161BBBBC5200FFC7BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9C50161BBBBC5200FFC7BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C50151BBBBC5200FFC7BC /* 02-UILabelDemo.app */,
+				CC9C502E1BBBBC5200FFC7BC /* 02-UILabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9C50171BBBBC5200FFC7BC /* 02-UILabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C501C1BBBBC5200FFC7BC /* AppDelegate.h */,
+				CC9C501D1BBBBC5200FFC7BC /* AppDelegate.m */,
+				CC9C501F1BBBBC5200FFC7BC /* ViewController.h */,
+				CC9C50201BBBBC5200FFC7BC /* ViewController.m */,
+				CC9C50221BBBBC5200FFC7BC /* Main.storyboard */,
+				CC9C50251BBBBC5200FFC7BC /* Images.xcassets */,
+				CC9C50271BBBBC5200FFC7BC /* LaunchScreen.xib */,
+				CC9C50181BBBBC5200FFC7BC /* Supporting Files */,
+			);
+			path = "02-UILabelDemo";
+			sourceTree = "<group>";
+		};
+		CC9C50181BBBBC5200FFC7BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C50191BBBBC5200FFC7BC /* Info.plist */,
+				CC9C501A1BBBBC5200FFC7BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC9C50311BBBBC5200FFC7BC /* 02-UILabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C50341BBBBC5200FFC7BC /* _2_UILabelDemoTests.m */,
+				CC9C50321BBBBC5200FFC7BC /* Supporting Files */,
+			);
+			path = "02-UILabelDemoTests";
+			sourceTree = "<group>";
+		};
+		CC9C50321BBBBC5200FFC7BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C50331BBBBC5200FFC7BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9C50141BBBBC5200FFC7BC /* 02-UILabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9C50381BBBBC5200FFC7BC /* Build configuration list for PBXNativeTarget "02-UILabelDemo" */;
+			buildPhases = (
+				CC9C50111BBBBC5200FFC7BC /* Sources */,
+				CC9C50121BBBBC5200FFC7BC /* Frameworks */,
+				CC9C50131BBBBC5200FFC7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-UILabelDemo";
+			productName = "02-UILabelDemo";
+			productReference = CC9C50151BBBBC5200FFC7BC /* 02-UILabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC9C502D1BBBBC5200FFC7BC /* 02-UILabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9C503B1BBBBC5200FFC7BC /* Build configuration list for PBXNativeTarget "02-UILabelDemoTests" */;
+			buildPhases = (
+				CC9C502A1BBBBC5200FFC7BC /* Sources */,
+				CC9C502B1BBBBC5200FFC7BC /* Frameworks */,
+				CC9C502C1BBBBC5200FFC7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9C50301BBBBC5200FFC7BC /* PBXTargetDependency */,
+			);
+			name = "02-UILabelDemoTests";
+			productName = "02-UILabelDemoTests";
+			productReference = CC9C502E1BBBBC5200FFC7BC /* 02-UILabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9C500D1BBBBC5200FFC7BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hnqingyun;
+				TargetAttributes = {
+					CC9C50141BBBBC5200FFC7BC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CC9C502D1BBBBC5200FFC7BC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CC9C50141BBBBC5200FFC7BC;
+					};
+				};
+			};
+			buildConfigurationList = CC9C50101BBBBC5200FFC7BC /* Build configuration list for PBXProject "02-UILabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9C500C1BBBBC5200FFC7BC;
+			productRefGroup = CC9C50161BBBBC5200FFC7BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9C50141BBBBC5200FFC7BC /* 02-UILabelDemo */,
+				CC9C502D1BBBBC5200FFC7BC /* 02-UILabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9C50131BBBBC5200FFC7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9C50241BBBBC5200FFC7BC /* Main.storyboard in Resources */,
+				CC9C50291BBBBC5200FFC7BC /* LaunchScreen.xib in Resources */,
+				CC9C50261BBBBC5200FFC7BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9C502C1BBBBC5200FFC7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9C50111BBBBC5200FFC7BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9C50211BBBBC5200FFC7BC /* ViewController.m in Sources */,
+				CC9C501E1BBBBC5200FFC7BC /* AppDelegate.m in Sources */,
+				CC9C501B1BBBBC5200FFC7BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9C502A1BBBBC5200FFC7BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9C50351BBBBC5200FFC7BC /* _2_UILabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC9C50301BBBBC5200FFC7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9C50141BBBBC5200FFC7BC /* 02-UILabelDemo */;
+			targetProxy = CC9C502F1BBBBC5200FFC7BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC9C50221BBBBC5200FFC7BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9C50231BBBBC5200FFC7BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC9C50271BBBBC5200FFC7BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9C50281BBBBC5200FFC7BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC9C50361BBBBC5200FFC7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC9C50371BBBBC5200FFC7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC9C50391BBBBC5200FFC7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-UILabelDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC9C503A1BBBBC5200FFC7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-UILabelDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC9C503C1BBBBC5200FFC7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-UILabelDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-UILabelDemo.app/02-UILabelDemo";
+			};
+			name = Debug;
+		};
+		CC9C503D1BBBBC5200FFC7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-UILabelDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-UILabelDemo.app/02-UILabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9C50101BBBBC5200FFC7BC /* Build configuration list for PBXProject "02-UILabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9C50361BBBBC5200FFC7BC /* Debug */,
+				CC9C50371BBBBC5200FFC7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9C50381BBBBC5200FFC7BC /* Build configuration list for PBXNativeTarget "02-UILabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9C50391BBBBC5200FFC7BC /* Debug */,
+				CC9C503A1BBBBC5200FFC7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC9C503B1BBBBC5200FFC7BC /* Build configuration list for PBXNativeTarget "02-UILabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9C503C1BBBBC5200FFC7BC /* Debug */,
+				CC9C503D1BBBBC5200FFC7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9C500D1BBBBC5200FFC7BC /* Project object */;
+}
